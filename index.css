@@ -21,9 +21,9 @@ header {
 
 nav{
     position: relative;
-    background: green;
+    background: #171E21;
     font-family: Calibri;
-    padding: 20px;
+    padding: 10px 0 5px 10px;
     box-shadow: 0 3px #888888;
     display: flex;
     align-items: center;
@@ -33,7 +33,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    font-size: 30px;
 
     
 }
