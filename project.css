@@ -53,8 +53,15 @@ ul li {
 ul li a {
     text-decoration: none;
     font-size: 25px;
-    color: #EDFBFF;
     
+}
+main{
+    width:100%;
+    padding:20px;
+    height: 215vh;
+    display: grid;
+    place-items: center;
+    background:#1B2226; 
 }
 section {
     width:100%;
@@ -62,7 +69,7 @@ section {
     height: 100%;
     display: grid;
     place-items: center;
-    background:#1B2226;
+    
     
     
     
@@ -89,32 +96,4 @@ img {
     border-radius: 100px;
     height: 150px;
     width: 150px;
-}
-.category {
-    width:100%;
-    padding:20px;
-    height: 70vh;
-    background: #131E21;
-    display:flex;
-    place-items:center;
-    justify-content:space-between;
-    flex-wrap:wrap;
-    flex-direction:row;
-
-}
-.project, .certificates, .about {
-    width:20%;
-    padding:5px;
-    height: 150px;
-    background-color: #FCFCFC;
-    
-    
-    
-}
-footer{
-    
-}
-a:hover{
-    text-shadow: 0 0 15px #888888, 0 0 20px #1B2226;
-    transition: 0.9s;
 }
